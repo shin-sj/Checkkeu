@@ -1,0 +1,38 @@
+@charset "UTF-8";
+  ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       background-color: white;
+   }
+   ul:after{
+       content:'';
+       display: block;
+       clear:both;
+   }
+   li {
+       float: left;
+   }
+   li a {
+       display: #333;
+       color: white;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+   }
+   li a:hover:not(.active) {
+       background-color: white;
+   }
+   .active {
+       background-color: #8080FF;
+   }
+   #board, #bList, #pageForm {
+               text-align :center;
+   }
+   
+   .nav-left {
+       background-color: white;
+      float: right;
+      
+   }
+ 

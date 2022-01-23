@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.container {
+	width: 385px;
+	line-height: 50px;
+	margin: 50px auto;
+	margin-bottom: 100px;
+}
+
+h5 {
+	text-align: center;
+}
+
+h5 span {
+	color: teal;
+}
+
+input {
+	border: 1px solid lightgray;
+	border-radius: 3px;
+	width: 250px;
+	height: 30px;
+}

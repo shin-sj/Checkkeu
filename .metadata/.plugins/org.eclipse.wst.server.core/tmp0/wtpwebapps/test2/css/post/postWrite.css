@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.inputStyle {
+	border: none;
+	width: 90px;
+	height: 30px;
+	border-radius: 20px;
+}
+
+.inputStyle:hover {
+	background: lightgray;
+}
+
+.btn-div {
+	display: flex;
+	justify-content: center;
+	margin: 30px;
+}
